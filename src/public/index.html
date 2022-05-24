@@ -51,31 +51,49 @@
 
             <hr/>
 
-            <h2>Want to know more about dongles?</h2>
-
-            <div class="card bg-del-dark text-white mb-2">
-                <div class="card-body">
-                    <pre style="white-space: pre-wrap; white-space: -moz-pre-wrap"><blockquote cite="https://en.wikipedia.org/wiki/Dongle">A dongle is a small piece of computer hardware that connects to a port on another device to provide it with additional functionality, or enable a pass-through to such a device that adds functionality.</blockquote></pre>
-                    <a href="https://en.wikipedia.org/wiki/Dongle" target="_blank" class="text-white">Read more on Wikipedia</a>
+            <div data-bind="visible: isLiveOnTwitch">
+                <div class="ratio ratio-16x9">
+                    <iframe src="" data-bind="attr: {src: iframeSrc}" allowfullscreen></iframe>
                 </div>
+                <hr/>
             </div>
 
-            <div class="card bg-del-dark text-white mb-2">
+            <div class="card mt-3">
+                <div class="card-header">
+                    <h2>Let's Talk About Dongles</h2>
+                </div>
                 <div class="card-body">
-                    <pre style="white-space: pre-wrap; white-space: -moz-pre-wrap"><blockquote cite="https://www.merriam-webster.com/dictionary/dongle">a small device that plugs into a computer and serves as an adapter or as a security measure to enable the use of certain software.</blockquote></pre>
-                    <a href="https://www.merriam-webster.com/dictionary/dongle" target="_blank" class="text-white">Find out more from Merriam-Webster</a>
+                    <div class="card bg-del-dark text-white mb-2">
+                        <div class="card-body">
+                            <pre style="white-space: pre-wrap; white-space: -moz-pre-wrap"><blockquote cite="https://en.wikipedia.org/wiki/Dongle">A dongle is a small piece of computer hardware that connects to a port on another device to provide it with additional functionality, or enable a pass-through to such a device that adds functionality.</blockquote></pre>
+                            <a href="https://en.wikipedia.org/wiki/Dongle" target="_blank" class="text-white">Read more on Wikipedia</a>
+                        </div>
+                    </div>
+        
+                    <div class="card bg-del-dark text-white mb-2">
+                        <div class="card-body">
+                            <pre style="white-space: pre-wrap; white-space: -moz-pre-wrap"><blockquote cite="https://www.merriam-webster.com/dictionary/dongle">a small device that plugs into a computer and serves as an adapter or as a security measure to enable the use of certain software.</blockquote></pre>
+                            <a href="https://www.merriam-webster.com/dictionary/dongle" target="_blank" class="text-white">Find out more from Merriam-Webster</a>
+                        </div>
+                    </div>
+        
+                    <div class="card bg-del-dark text-white mb-2">
+                        <div class="card-body">
+                            <pre style="white-space: pre-wrap; white-space: -moz-pre-wrap"><blockquote cite="https://www.urbandictionary.com/define.php?term=dongle">Another word that should be normal but really means dick.</blockquote></pre>
+                            <a href="https://www.urbandictionary.com/define.php?term=dongle" target="_blank" class="text-white">Thanks, Urban Dictionary</a>
+                        </div>
+                    </div>
+
+                    <div class="card bg-del-dark text-white mb-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Dongle Song</h5>
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.youtube.com/embed/VOreEIOVnCI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="card bg-del-dark text-white mb-2">
-                <div class="card-body">
-                    <pre style="white-space: pre-wrap; white-space: -moz-pre-wrap"><blockquote cite="https://www.urbandictionary.com/define.php?term=dongle">Another word that should be normal but really means dick.</blockquote></pre>
-                    <a href="https://www.urbandictionary.com/define.php?term=dongle" target="_blank" class="text-white">Thanks, Urban Dictionary</a>
-                </div>
-            </div>
-
-            <h5>Interested in hearing a song about dongles? <a href="https://www.youtube.com/embed/VOreEIOVnCI" target="_blank" class="text-dark">Youtube has you covered</a></h5>
-            
         </div>
         
         <script type="text/javascript" src="js/lib/jquery-3.6.0.min.js"></script>
